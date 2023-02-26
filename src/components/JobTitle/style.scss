@@ -1,0 +1,77 @@
+.job-title {
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: -40px;
+  margin-bottom: 2rem;
+  &-left {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  &-right {
+    flex: 1;
+    padding: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .company-site-name {
+      .company-name {
+        font-weight: 700;
+        font-size: 1.6rem;
+      }
+      .company-website-name {
+        color: #6e8098;
+        line-height: 20px;
+      }
+    }
+  }
+  .company-site-link {
+    a {
+      background-color: rgba($color: #5964e0, $alpha: 0.1);
+      border-radius: 5px;
+      font-weight: 700;
+      padding: 1rem;
+      &:hover {
+        background-color: rgba($color: #5964e0, $alpha: 0.35)
+      }
+    }
+    .link-light {
+      color: #5964e0;
+    }
+    .link-dark {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .job-title{
+    flex-direction: column;
+    position: relative;
+    &-left{
+      width: 50px;
+      height: 50px;
+      border-radius: 15px;
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 5px;
+    }
+    &-right{
+      flex-direction: column;
+      padding: 55px 45px 15px 45px;
+      text-align: center;
+      & > *{
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+

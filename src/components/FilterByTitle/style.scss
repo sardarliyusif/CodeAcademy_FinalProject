@@ -1,0 +1,20 @@
+.filter-by-title{
+    width: 40%;
+    padding-left: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .filter-by-title {
+      width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-by-title {
+      width: 60%;
+      padding: 1rem;
+    }
+}

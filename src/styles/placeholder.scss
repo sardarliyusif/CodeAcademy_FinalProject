@@ -1,0 +1,18 @@
+%container {
+  width: 90%;
+  max-width: 1110px;
+  margin: auto;
+}
+
+%container-sm {
+  width: 90%;
+  max-width: 730px;
+  margin: auto;
+}
+
+%flex-sb-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

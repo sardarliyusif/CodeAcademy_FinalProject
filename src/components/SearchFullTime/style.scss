@@ -1,0 +1,30 @@
+.full-time-only{
+    height: 100%;
+    line-height: 71px;
+    display: flex;
+    
+    &-input{
+        width: 24px;
+        height: 100%;
+        margin-right: 1rem;
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &-label{
+        height: 100%;
+        color: #19202D;
+        font-weight: 700
+        ;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .full-time-only-input{
+        width: 16px;
+    }
+  }

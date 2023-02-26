@@ -1,0 +1,13 @@
+.job-position {
+  margin: 0.5rem 0;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 35px;
+}
+
+@media (max-width: 480px) {
+  .job-position{
+    font-size: 18px;
+    margin: 0;
+  }
+}

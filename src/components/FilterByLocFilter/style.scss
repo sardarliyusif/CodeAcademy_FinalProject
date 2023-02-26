@@ -1,0 +1,30 @@
+.filter-by-loc-filter {
+  width: 250px;
+  margin-left: 1rem;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  appearance: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.dark-text-color {
+  color: rgba($color: #ddd, $alpha: 0.5);
+}
+
+.light-text-color {
+  color: rgba($color: #19202d, $alpha: 0.2);
+}
+
+.dark-mode-select-focus {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .filter-by-loc-filter {
+    width: 120px;
+  }
+}
+

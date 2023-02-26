@@ -1,0 +1,30 @@
+.filter-by-title-input {
+  width: 280px;
+  border: none;
+  height: 100%;
+  cursor: pointer;
+  margin-left: 1rem;
+  &:focus {
+    outline: none;
+  }
+}
+
+.dark-mode-input-color {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .filter-by-title-input {
+    width: 147px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-by-title-input {
+    width: 105px;
+    &::placeholder{
+      font-size: 10px;
+    }
+  }
+
+}
